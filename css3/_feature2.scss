@@ -1,0 +1,53 @@
+body{
+    background: #F2EFE4;
+}
+.part-2{
+    margin-top: 3rem;
+    .con{
+        width: 50%;
+        margin: auto;
+        .all-list{
+           
+           .list-1{
+               h1{
+                   font-family: Georgia, 'Times New Roman', Times, serif;
+               }
+               ul{
+                   padding-top: 2rem;
+                 li{
+                   font-size: 20px; 
+                   font-family: Arial, Helvetica, sans-serif; 
+                   line-height: 2.3rem;
+                   color: black;
+                   a{
+                       color: black;
+                  
+                     width: 80%;
+                     transition: .5s;
+                     &:hover{
+                   text-decoration-color:goldenrod ;
+                     }
+                     
+                       }
+                   }  
+                   }
+                p{
+                    font-size: 20px;
+                    font-family: Arial, Helvetica, sans-serif;
+                    color: black;
+                    padding-top: 1rem;
+                    a{
+                        color: black;
+                        text-decoration: underline;
+                      width: 80%;
+                      transition: .5s;
+                      &:hover{
+                    text-decoration-color:goldenrod ;
+                      }
+                      
+                        }
+                }
+               }
+           }
+        }
+    }

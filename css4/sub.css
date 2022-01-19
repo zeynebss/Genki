@@ -1,0 +1,284 @@
+body {
+  background: #F2EFE4;
+}
+
+.home {
+  width: 100%;
+  height: 60vh;
+  background-position: center center;
+  background-size: cover;
+  min-height: 100%;
+  background-size: cover;
+}
+
+.home .con {
+  width: 88%;
+  margin: auto;
+}
+
+.home .con .home-1 {
+  padding-top: 3rem;
+}
+
+.home .con .home-1 .menu .nav {
+  padding-top: .5rem;
+}
+
+.home .con .home-1 .menu .nav .ul li {
+  padding-left: 10px;
+  list-style: none;
+}
+
+.home .con .home-1 .menu .nav .ul li a {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  color: black;
+  text-decoration: none;
+}
+
+.home .con .home-1 .menu .nav .ul li a:hover {
+  text-decoration: underline;
+}
+
+.home .con .home-1 .menu .lg img {
+  max-width: 100px;
+  margin-right: 1rem;
+}
+
+.home .con .home-1 .menu .icon i {
+  padding: 0.6rem 1rem;
+  font-size: 25px;
+}
+
+.home .con .home-1 .sign {
+  padding-left: 1rem;
+}
+
+.home .con .home-1 .sign i {
+  padding-top: 15px;
+  padding-left: 1rem;
+}
+
+.home .con .home-1 .sign form a {
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  font-size: 18px;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.home .con .home-1 .sign form a:hover {
+  text-decoration: underline;
+}
+
+.home .con .home-1 .sign form input {
+  margin-left: 2rem;
+  border: none;
+  font-size: 18px;
+  border-radius: 12mm;
+  color: white;
+  background-color: black;
+  padding: 10px 1.8rem;
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+
+.home .con .home-1 .sign form input:hover {
+  background-color: goldenrod;
+}
+
+.home .con .text-home {
+  padding-top: 4rem;
+  position: relative;
+}
+
+.home .con .text-home .text-box {
+  position: absolute;
+  left: 47%;
+  -webkit-transform: translateX(-47%);
+          transform: translateX(-47%);
+}
+
+.home .con .text-home .text-box h1 {
+  font-size: 80px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align: center;
+}
+
+.home .con .text-home .text-box p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 27px;
+  text-align: center;
+  padding-top: 1rem;
+}
+
+.sec2 .con {
+  width: 88%;
+  margin: auto;
+}
+
+.sec2 .con .allBox {
+  padding-top: 2rem;
+}
+
+.sec2 .con .allBox .box1 {
+  -webkit-transition: .7s;
+  transition: .7s;
+  position: relative;
+  cursor: pointer;
+  border: 1px solid gray;
+  margin: 3rem auto;
+  border-radius: 50px;
+  width: 380px;
+  height: 570px;
+  background-color: #E8E5D6;
+  padding-left: 2rem;
+}
+
+.sec2 .con .allBox .box1:hover {
+  -webkit-transform: translateY(-3%);
+          transform: translateY(-3%);
+}
+
+.sec2 .con .allBox .box1 h1 {
+  padding-top: 2rem;
+  font-size: 80px;
+}
+
+.sec2 .con .allBox .box1 p {
+  font-size: 25px;
+  padding-top: 1rem;
+}
+
+.sec2 .con .allBox .box1 hr {
+  margin-top: 2rem;
+}
+
+.sec2 .con .allBox .box1 ul li {
+  font-size: 18px;
+  line-height: 2.4rem;
+}
+
+.sec2 .con .allBox .box1 .btn-1 {
+  right: -7%;
+  -webkit-transform: translateX(-7%);
+          transform: translateX(-7%);
+}
+
+.sec2 .con .allBox .box1 .btn-1 button {
+  position: absolute;
+  border: none;
+  padding: 10px 2.2rem;
+  color: white;
+  background: #000;
+  border-radius: 12mm;
+  font-size: 20px;
+  -webkit-transition: .7s;
+  transition: .7s;
+}
+
+.sec2 .con .allBox .box1 .btn-1 button:hover {
+  background: goldenrod;
+}
+
+.sec2 .con .p-end p {
+  text-align: center;
+  font-size: 13px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.sec2 .con .p-end p a {
+  text-decoration: none;
+  -webkit-transition: .4s;
+  transition: .4s;
+  color: black;
+}
+
+.sec2 .con .p-end p a:hover {
+  text-decoration: underline;
+}
+
+.sec3 .con {
+  width: 88%;
+  margin: auto;
+}
+
+.sec3 .con .part-1 .txt-box-1 {
+  width: 569px;
+  height: 250px;
+  border: 1px solid #BFBEB3;
+  border-radius: 50px;
+  margin: 1rem auto;
+  padding-left: 2rem;
+}
+
+.sec3 .con .part-1 .txt-box-1 h2 {
+  padding-top: 2rem;
+  font-size: 25px;
+}
+
+.sec3 .con .part-1 .txt-box-1 p {
+  padding-top: 1rem;
+  font-size: 17px;
+}
+
+.foot {
+  height: 66vh;
+  margin-top: 5rem;
+  background: #F2EFE4;
+}
+
+.foot .con {
+  width: 88%;
+  margin: auto;
+}
+
+.foot .con .foot-lg {
+  margin-top: 3rem;
+}
+
+.foot .con .foot-lg img {
+  max-width: 100px;
+}
+
+.foot .con .foot-box {
+  margin-top: 1.8rem;
+}
+
+.foot .con .foot-box .f-b {
+  line-height: 2.5rem;
+}
+
+.foot .con .foot-box .f-b .head p {
+  font-family: monospace;
+  font-size: 13px;
+}
+
+.foot .con .foot-box .f-b ul li {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 15px;
+  cursor: pointer;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+.foot .con .foot-box .f-b ul li:hover {
+  text-decoration: underline;
+}
+
+.foot .con .foot-box .f-b ul li i {
+  margin-right: 8px;
+}
+
+.foot .con .end-a {
+  margin-top: 3rem;
+}
+
+.foot .con .end-a a {
+  text-decoration: none;
+  color: #464444;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+}
+/*# sourceMappingURL=sub.css.map */
